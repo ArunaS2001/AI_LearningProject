@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you with learning today?", "Hi there! Ready to learn?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "See you", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Keep learning!", "See you later! Don't forget to study!"]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["How can I study better?", "Study tips", "Learning tips", "How to prepare for exams?"],
+      "responses": [
+        "Make a schedule and stick to it.",
+        "Break your study into small chunks and take regular breaks.",
+        "Use active recall and practice problems to improve learning."
+      ]
+    },
+    {
+      "tag": "course_info",
+      "patterns": ["Tell me about Python", "What is AI?", "Explain machine learning", "What is data science?"],
+      "responses": [
+        "Python is a popular programming language used for many applications.",
+        "AI stands for Artificial Intelligence. It allows machines to mimic human intelligence.",
+        "Machine Learning is a subset of AI that lets computers learn from data.",
+        "Data Science involves extracting insights and knowledge from data using various tools and techniques."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+      "responses": ["You are welcome!", "Happy to help!"]
+    }
+  ]
+}
